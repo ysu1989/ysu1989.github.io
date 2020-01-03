@@ -1,0 +1,159 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+/*	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; */
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	color: #000000;
+	background: #FFFFFF;
+}
+
+*
+{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+p
+{
+	line-height:25px;
+	margin-bottom:10px;
+}
+
+li
+{
+	margin-bottom:10px;
+}
+
+
+h1
+{
+font-size:40px;
+font-weight:bold;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+
+h2
+{
+font-size:25px;
+font-weight:bold;
+padding-top:20px;
+}
+
+h3
+{
+font-size:20px;
+font-weight:bold;
+padding-bottom:20px;
+padding-top:10px;
+}
+
+#main
+{
+width:900px;
+height:auto;
+}
+
+#header
+{
+color:#ffffff;
+clear:both;
+height:30px;
+border-top-style:solid;
+border-bottom-style:solid;
+border-width: 1px;
+border-color: black;
+/*background-color:rgba(224,229,145,1.00);*/
+background-color:rgb(202,204,201);
+text-align:center;
+line-height:30px;
+}
+
+#header a, #header a:visited, #header a:hover
+{
+font-size:16px;
+font-weight:bold;
+color:#000000;
+padding-left:30px;
+padding-right:30px;
+text-decoration:none;
+}
+
+#header a:hover {
+text-decoration:underline;
+border:none;
+}
+
+#contentColumn
+{
+
+}
+
+.contentBlock
+{
+
+}
+
+
+.divider
+{
+background-image:url(images/divider.jpg);
+background-repeat:no-repeat;
+height:3px;
+margin-bottom:20px;
+}
+
+.news
+{
+height:200px;
+overflow:auto;
+padding:5px;
+font-size:15px;
+}
+
+
+a, a:visited
+{
+text-decoration:none;
+color:blue;
+}
+
+a:hover
+{
+color:#9B1313;
+text-decoration:underline;
+}
+
+
+
+.publication
+{
+	font-size:16px;
+}
+
+.paperTitle
+{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.paperAuthor
+{
+
+}
+
+.paperResource
+{
+	font-size: 14px;
+}
+
+.publication li
+{
+	margin-bottom: 10px;
+}
+
